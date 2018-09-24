@@ -1,7 +1,10 @@
 <template>
   <div id="app">
     <nav-header></nav-header>
+    <newsletter-signup></newsletter-signup>
     <happy></happy>
+    <testimonials></testimonials>
+    <packages></packages>
   </div>
 </template>
 
