@@ -38,9 +38,9 @@
 <style>
   .packages {
     background-color: #fff;
-    margin-top: 150px;
     width: 75%;
     margin: 0 auto;
+    padding: 150px 0;
   }
   .packages img { margin: 0 auto; }
 
@@ -57,6 +57,7 @@
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
+    padding: 0 30px;
   }
   .img-left {
     width: 400px;

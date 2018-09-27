@@ -1,11 +1,11 @@
 <template>
-  <div class="container footer-container">
-    <div class="footer-row">
+  <div class="container signup-container">
+    <div class="signup-row">
       <div class="copy">
-        <p>Privacy Policy | Terms of Use</p>
+        <p>Coaching packages offer when you sign up!</p>
       </div>
-      <div class="footer-form">
-        <social-icons></social-icons>
+      <div class="signup-form">
+        <button class="signup-button">GET STARTED</button>
       </div>
     </div>
   </div>
@@ -16,31 +16,31 @@
 </script>
 
 <style scoped>
-  .footer-container {
-    background-color: #2c2c2c;
+  .signup-container {
+    background-color: #faf2f7;
     /*padding: 0 60px;*/
     height: 100px;
     display: flex;
     justify-content: center;
   }
-  .footer-row {
+  .signup-row {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    width: 100%;
+    width: 70%;
   }
 
-  .footer-row p {
-    color: #717171;
+  .signup-row p {
+    color: #333333;
     padding: 10px 0px;
     font-size: 24px;
     margin: 0;
   }
   .copy, 
-  .footer-form { width: 50%; }
+  .signup-form { width: 50%; }
 
-  .footer-input {
+  .signup-input {
     border: none;
     border-radius: 5px 0 0 5px;
     padding: 17px 20px;
@@ -48,18 +48,18 @@
     width: 50%;
   }
 
-  .footer-button {
+  .signup-button {
     border: none;
     background-color: #2e3192;
     color: #fff;
     font-size: 20px;
-    padding: 17px 30px 17px 30px;
+    padding: 17px 20px 17px 20px;
     border-radius: 5px;
     left: -4px;
     position: relative;
   }
 
-  .footer-button:focus {
+  .signup-button:focus {
     outline: none;
   }
 

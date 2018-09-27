@@ -8,7 +8,7 @@
 
 
     <div class="learn-more-btn">
-      <button>Learn More</button>
+      <!-- <button>Learn More</button> -->
     </div>
   </div>
 </template>
@@ -24,7 +24,7 @@
 <style>
   .testimonials {
     margin-top: 40px;
-    padding: 40px 0;
+    padding: 100px 0;
     background-color: #a2a2a2;
   }
 </style>

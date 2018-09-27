@@ -5,6 +5,12 @@
     <happy></happy>
     <testimonials></testimonials>
     <packages></packages>
+    <packages-signup></packages-signup>
+    <blog-articles></blog-articles>
+    <juicer></juicer>
+    <booking-signup></booking-signup>
+    <site-map></site-map>
+    <footer-component></footer-component>
   </div>
 </template>
 

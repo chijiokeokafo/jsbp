@@ -21,13 +21,9 @@
 <style scoped>
 	.container.happy {
 		width: 75%;
-		margin: 80px auto 0;
+		margin: 80px auto 230px;
 		height: auto;
 		display: flex;
-		-webkit-flex-direction: column;
-		-moz-flex-direction: column;
-		-ms-flex-direction: column;
-		-o-flex-direction: column;
 		flex-direction: column;
 		justify-content: center;
 		background-color: #fff;
@@ -44,8 +40,14 @@
 		text-align: left;
 		color: #575757
 	}
+	.happy h1:first-of-type {
+		margin-bottom: 0;
+	}
 
-	.happy h1.light { color: #f0bed8; }
+	.happy h1.light { 
+		color: #f0bed8; 
+		margin-top: 0;
+	}
 
 	.happy .body-copy p {
 		font-size: 20px;

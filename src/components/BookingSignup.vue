@@ -1,11 +1,11 @@
 <template>
-  <div class="container footer-container">
-    <div class="footer-row">
+  <div class="container booking-container">
+    <div class="booking-row">
       <div class="copy">
-        <p>Privacy Policy | Terms of Use</p>
+        <p>INTRO TO BOOKING PAGE</p>
       </div>
-      <div class="footer-form">
-        <social-icons></social-icons>
+      <div class="booking-form">
+        <button class="booking-button">BOOK NOW</button>
       </div>
     </div>
   </div>
@@ -16,31 +16,31 @@
 </script>
 
 <style scoped>
-  .footer-container {
-    background-color: #2c2c2c;
+  .booking-container {
+    background-color: #ebebeb;
     /*padding: 0 60px;*/
     height: 100px;
     display: flex;
     justify-content: center;
   }
-  .footer-row {
+  .booking-row {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    width: 100%;
+    width: 70%;
   }
 
-  .footer-row p {
-    color: #717171;
+  .booking-row p {
+    color: #333333;
     padding: 10px 0px;
     font-size: 24px;
     margin: 0;
   }
   .copy, 
-  .footer-form { width: 50%; }
+  .booking-form { width: 50%; }
 
-  .footer-input {
+  .booking-input {
     border: none;
     border-radius: 5px 0 0 5px;
     padding: 17px 20px;
@@ -48,7 +48,7 @@
     width: 50%;
   }
 
-  .footer-button {
+  .booking-button {
     border: none;
     background-color: #2e3192;
     color: #fff;
@@ -59,7 +59,7 @@
     position: relative;
   }
 
-  .footer-button:focus {
+  .booking-button:focus {
     outline: none;
   }
 
