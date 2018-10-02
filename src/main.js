@@ -1,5 +1,11 @@
 import Vue from 'vue'
 import App from './App.vue'
+import VueRouter from 'vue-router'
+import { routes } from './routes';
+
+import Home from './components/Home.vue'
+import NavHeader from './components/NavHeader.vue';
+import Happy from './components/Happy.vue';
 import SocialIcons from './components/SocialIcons.vue'
 import Hamburger from './components/Hamburger.vue'
 import NewsletterSignup from './components/NewsletterSignup.vue'
@@ -11,8 +17,17 @@ import Juicer from './components/Juicer.vue'
 import BookingSignup from './components/BookingSignup.vue'
 import SiteMap from './components/SiteMap.vue'
 import Footer from './components/Footer.vue'
+import Modal from './components/Modal.vue'
 
+Vue.use(VueRouter);
 
+const router = new VueRouter({
+  routes
+});
+
+Vue.component('home', Home);
+Vue.component('nav-header', NavHeader);
+Vue.component('happy', Happy);
 Vue.component('social-icons', SocialIcons);
 Vue.component('hamburger', Hamburger);
 Vue.component('newsletter-signup', NewsletterSignup);
@@ -24,9 +39,11 @@ Vue.component('juicer', Juicer);
 Vue.component('booking-signup', BookingSignup);
 Vue.component('site-map', SiteMap);
 Vue.component('footer-component', Footer);
+Vue.component('modal', Modal);
 
 new Vue({
   el: '#app',
+  router,
   render: h => h(App)
 })
 
