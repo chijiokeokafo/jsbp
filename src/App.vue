@@ -1,6 +1,5 @@
 <template>
   <div class="container">
-    <!-- <nav-header></nav-header> -->
     <router-view></router-view>
   </div>
   
