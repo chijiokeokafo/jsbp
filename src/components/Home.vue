@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    <nav-component></nav-component>
     <nav-header></nav-header>
     <newsletter-signup></newsletter-signup>
     <happy></happy>

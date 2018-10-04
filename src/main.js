@@ -3,9 +3,9 @@ import App from './App.vue'
 import VueRouter from 'vue-router'
 import { routes } from './routes';
 
-
-import NavHeader from './components/NavHeader.vue';
-import Happy from './components/Happy.vue';
+import Nav from './components/Nav.vue'
+import NavHeader from './components/NavHeader.vue'
+import Happy from './components/Happy.vue'
 import SocialIcons from './components/SocialIcons.vue'
 import Hamburger from './components/Hamburger.vue'
 import NewsletterSignup from './components/NewsletterSignup.vue'
@@ -34,6 +34,7 @@ const router = new VueRouter({
   routes
 });
 
+Vue.component('nav-component', Nav);
 Vue.component('home', Home);
 Vue.component('nav-header', NavHeader);
 Vue.component('happy', Happy);

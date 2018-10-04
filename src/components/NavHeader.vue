@@ -1,42 +1,5 @@
 <template>
 	<div class="container nav-header">
-
-		<fixed-header :fixed.sync="isFixed">
-		  <div :class="{ 'is-fixed': isFixed }">
-		    Your Content
-		  </div>
-		</fixed-header>
-		
-		<fixed-header :fixed.sync="isFixed" :threshold="100">
-			<div :class="{ 'is-fixed': isFixed }">
-				<div class="logo-nav-container">
-					<div class="logo">
-						<router-link to="/"><img src="../assets/img/logo.png" alt=""></router-link>
-					</div>
-					<div class="nav">
-						<ul class="nav-list">
-							<li>
-								<router-link to="/about">ABOUT</router-link>
-							</li>
-							<li>
-								<router-link to="/testimonials">TESTIMONIALS</router-link>
-							</li>
-							<li>
-								<router-link to="/coaching">COACHING</router-link>
-							</li>
-							<li>
-								<router-link to="/blog">BLOG</router-link>
-							</li>
-							<li>
-								<router-link to="/contact">CONTACT</router-link>
-							</li>
-						</ul>
-					</div>
-					<social-icons></social-icons>
-					<hamburger></hamburger>
-				</div>
-			</div>
-		</fixed-header>
 		<div class="homepage-headline">
 			<!-- <h1>Elegant Homepage Headline</h1> -->
 			<img src="../assets/img/elegant.png" alt="">
@@ -46,18 +9,6 @@
 </template>
 
 <script>
-	import FixedHeader from 'vue-fixed-header'
-
-	export default {
-		components: {
-			FixedHeader
-		}, 
-		data () {
-		  return {
-		    isFixed: false
-		  }
-		}
-	}
 </script>
 
 <style scoped lang="scss">
@@ -83,18 +34,7 @@
 			}
 		}
 	}
-
-	.logo-nav-container {
-		display: flex;
-		flex-direction: row;
-		justify-content: space-around;
-		width: 80%;
-    margin: 30px auto;
-
-		.nav-list {
-			color: #fff;
-		}
-	}
+	
 	.homepage-headline {
 		margin: 250px 0;
 
