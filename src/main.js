@@ -3,7 +3,7 @@ import App from './App.vue'
 import VueRouter from 'vue-router'
 import { routes } from './routes';
 
-import Home from './components/Home.vue'
+
 import NavHeader from './components/NavHeader.vue';
 import Happy from './components/Happy.vue';
 import SocialIcons from './components/SocialIcons.vue'
@@ -18,6 +18,15 @@ import BookingSignup from './components/BookingSignup.vue'
 import SiteMap from './components/SiteMap.vue'
 import Footer from './components/Footer.vue'
 import Modal from './components/Modal.vue'
+
+
+// **PAGES**
+import Home from './components/Home.vue'
+import AboutPage from './components/AboutPage.vue'
+import TestimonialsPage from './components/TestimonialsPage.vue';
+import CoachingPage from './components/CoachingPage.vue';
+import BlogPage from './components/BlogPage.vue';
+import ContactPage from './components/ContactPage.vue';
 
 Vue.use(VueRouter);
 
@@ -40,6 +49,12 @@ Vue.component('booking-signup', BookingSignup);
 Vue.component('site-map', SiteMap);
 Vue.component('footer-component', Footer);
 Vue.component('modal', Modal);
+
+Vue.component('about-page', AboutPage);
+Vue.component('testinomials-page', TestimonialsPage);
+Vue.component('coaching-page', CoachingPage);
+Vue.component('blog-page', BlogPage);
+Vue.component('contact-page', ContactPage);
 
 new Vue({
   el: '#app',

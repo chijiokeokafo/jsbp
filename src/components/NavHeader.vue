@@ -1,26 +1,42 @@
 <template>
 	<div class="container nav-header">
-		<div class="logo-nav-container">
 
-			<div class="logo">
-				<img src="../assets/img/logo.png" alt="">
+		<fixed-header :fixed.sync="isFixed">
+		  <div :class="{ 'is-fixed': isFixed }">
+		    Your Content
+		  </div>
+		</fixed-header>
+		
+		<fixed-header :fixed.sync="isFixed" :threshold="100">
+			<div :class="{ 'is-fixed': isFixed }">
+				<div class="logo-nav-container">
+					<div class="logo">
+						<router-link to="/"><img src="../assets/img/logo.png" alt=""></router-link>
+					</div>
+					<div class="nav">
+						<ul class="nav-list">
+							<li>
+								<router-link to="/about">ABOUT</router-link>
+							</li>
+							<li>
+								<router-link to="/testimonials">TESTIMONIALS</router-link>
+							</li>
+							<li>
+								<router-link to="/coaching">COACHING</router-link>
+							</li>
+							<li>
+								<router-link to="/blog">BLOG</router-link>
+							</li>
+							<li>
+								<router-link to="/contact">CONTACT</router-link>
+							</li>
+						</ul>
+					</div>
+					<social-icons></social-icons>
+					<hamburger></hamburger>
+				</div>
 			</div>
-
-			<div class="nav">
-				<ul class="nav-list">
-					<li>ABOUT</li>
-					<li>TESTIMONIALS</li>
-					<li>COACHING</li>
-					<li>BLOG</li>
-					<li>CONTACT</li>
-				</ul>
-			</div>
-
-			<social-icons></social-icons>
-
-			<hamburger></hamburger>
-
-		</div>
+		</fixed-header>
 		<div class="homepage-headline">
 			<!-- <h1>Elegant Homepage Headline</h1> -->
 			<img src="../assets/img/elegant.png" alt="">
@@ -30,24 +46,23 @@
 </template>
 
 <script>
-	export default {
+	import FixedHeader from 'vue-fixed-header'
 
+	export default {
+		components: {
+			FixedHeader
+		}, 
+		data () {
+		  return {
+		    isFixed: false
+		  }
+		}
 	}
 </script>
 
 <style scoped lang="scss">
-	
-	// @font-face {
-	//     font-family: 'Brandon Grotesque';
-	//     src: url(../assets/fonts/BrandonGrotesque-Regular.eot);
-	//     src: url(../assets/fonts/BrandonGrotesque-Regular.eot?#iefix) format('embedded-opentype'),
-	//         url(../assets/fonts/BrandonGrotesque-Regular.woff2) format('woff2'),
-	//         url(../assets/fonts/BrandonGrotesque-Regular.woff) format('woff'),
-	//         url(../assets/fonts/BrandonGrotesque-Regular.ttf) format('truetype');
-	//     font-weight: normal;
-	//     font-style: normal;
-	// }
-	.container {
+
+	.container.nav-header {
 		width: 100%;
 		height: auto;
 		display: flex;
@@ -58,6 +73,15 @@
 		flex-direction: column;
 		justify-content: center;
 		background-color: #2e3192;
+
+		a {
+			color: #fff;
+			text-decoration: none;
+
+			:active, :focus {
+				outline: none !important;
+			}
+		}
 	}
 
 	.logo-nav-container {

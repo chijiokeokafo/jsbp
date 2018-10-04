@@ -1,7 +1,7 @@
 <template>
   <div class="container testimonials">
-    <carousel :autoplay="true">
-    </carousel>
+    <!-- <carousel :autoplay="true">
+    </carousel> -->
     <div class="placeholder-img">
       <!-- <img src="../assets/img/testimonial-holder.png" alt=""> -->
     </div>
