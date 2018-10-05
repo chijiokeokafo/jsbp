@@ -67,12 +67,12 @@
   }
 
   #nav-icon3 span:nth-child(2),#nav-icon3 span:nth-child(3) {
-    top: 18px;
+    top: 9px;
   }
 
-  #nav-icon3 span:nth-child(4) {
-    top: 28px;
-  }
+  // #nav-icon3 span:nth-child(4) {
+  //   top: 28px;
+  // }
 
   #nav-icon3.open span:nth-child(1) {
     top: 18px;

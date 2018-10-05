@@ -4,7 +4,7 @@ import VueRouter from 'vue-router'
 import { routes } from './routes';
 
 import Nav from './components/Nav.vue'
-import NavHeader from './components/NavHeader.vue'
+import HeaderHome from './components/HeaderHome.vue'
 import Happy from './components/Happy.vue'
 import SocialIcons from './components/SocialIcons.vue'
 import Hamburger from './components/Hamburger.vue'
@@ -23,10 +23,11 @@ import Modal from './components/Modal.vue'
 // **PAGES**
 import Home from './components/Home.vue'
 import AboutPage from './components/AboutPage.vue'
-import TestimonialsPage from './components/TestimonialsPage.vue';
-import CoachingPage from './components/CoachingPage.vue';
-import BlogPage from './components/BlogPage.vue';
-import ContactPage from './components/ContactPage.vue';
+import TestimonialsPage from './components/TestimonialsPage.vue'
+import CoachingPage from './components/CoachingPage.vue'
+import BlogPage from './components/BlogPage.vue'
+import ContactPage from './components/ContactPage.vue'
+import AboutPageHeader from './components/AboutPageHeader.vue'
 
 Vue.use(VueRouter);
 
@@ -36,7 +37,7 @@ const router = new VueRouter({
 
 Vue.component('nav-component', Nav);
 Vue.component('home', Home);
-Vue.component('nav-header', NavHeader);
+Vue.component('header-home', HeaderHome);
 Vue.component('happy', Happy);
 Vue.component('social-icons', SocialIcons);
 Vue.component('hamburger', Hamburger);
@@ -56,6 +57,8 @@ Vue.component('testinomials-page', TestimonialsPage);
 Vue.component('coaching-page', CoachingPage);
 Vue.component('blog-page', BlogPage);
 Vue.component('contact-page', ContactPage);
+
+Vue.component('about-page-header', AboutPageHeader);
 
 new Vue({
   el: '#app',

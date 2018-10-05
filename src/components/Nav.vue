@@ -1,7 +1,7 @@
 <template>
   <div class="container nav-header">
-    <fixed-header :fixed.sync="isFixed">
-      <div :class="{ 'is-fixed': isFixed }">
+    <fixed-header :fixed.sync="isFixed"  :threshold="10">
+      <div class="navbar" :class="{ 'is-light': isFixed, 'is-primary': !isFixed }">
         <div class="logo-nav-container">
           <div class="logo">
             <router-link to="/"><img src="../assets/img/logo.png" alt=""></router-link>
@@ -25,7 +25,7 @@
               </li>
             </ul>
           </div>
-          <social-icons></social-icons>
+          <social-icons  :class="{ 'is-gone': isFixed, 'is-here': !isFixed }"></social-icons>
           <hamburger></hamburger>
         </div>
       </div>
@@ -49,6 +49,34 @@
 </script>
 
 <style scoped lang="scss">
+  body { margin: 0; }
+
+    #app {
+      font-family: 'Avenir', Helvetica, Arial, sans-serif;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      text-align: center;
+      color: #2c3e50;
+      /*margin-top: 60px;*/
+    }
+
+    h1, h2 {
+      font-weight: normal;
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    li {
+      display: inline-block;
+      margin: 0 10px;
+    }
+
+    a {
+      color: #42b983;
+    }
 
   .container.nav-header {
     width: 100%;
@@ -79,6 +107,11 @@
     width: 80%;
     margin: 30px auto;
 
+    .logo {
+      display: flex;
+      align-items: center;
+    }
+
     .nav-list {
       color: #fff;
     }
@@ -89,6 +122,35 @@
     img {
       margin: 50 auto;
     }
+  }
+
+  .icons-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .navbar {
+    position: fixed;
+    width: 100%;
+    transition: background 0.15s ease-out;
+    background: transparent;
+    z-index: 10000;
+    top: 0px;
+  }
+  .navbar.is-primary {
+    background: transparent;
+  }
+  .navbar.is-light {
+    background: #7577b7;
+  }
+
+  .is-here {
+    display: block;
+  }
+
+  .is-gone {
+    display: none;
   }
   
 </style>

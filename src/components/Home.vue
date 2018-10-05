@@ -1,7 +1,7 @@
 <template>
-  <div id="app">
+  <div class="home-container">
     <nav-component></nav-component>
-    <nav-header></nav-header>
+    <header-home></header-home>
     <newsletter-signup></newsletter-signup>
     <happy></happy>
     <testimonials></testimonials>
@@ -19,11 +19,6 @@
 
 
 export default {
-  name: 'app',
-  data () {
-    return {
-    }
-  }
 }
 </script>
 
@@ -31,7 +26,7 @@ export default {
 
 body { margin: 0; }
 
-  #app {
+  .home-container {
     font-family: 'Avenir', Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
