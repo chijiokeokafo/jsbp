@@ -31,6 +31,7 @@
   .sitemap-container {
     background-color: #3e3e3e;
     padding: 90px 0 130px 0;
+    font-family: 'Helvetica', sans-serif
   }
   .logo-container { margin-bottom: 20px; }
 
@@ -42,5 +43,9 @@
   .col {
     width: 28%;
     color: #afb0d6;
+  }
+
+  .col p {
+    font-size: 16px;
   }
 </style>

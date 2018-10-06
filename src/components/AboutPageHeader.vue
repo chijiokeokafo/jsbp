@@ -1,8 +1,9 @@
 <template>
   <div class="container about-header">
     <div class="homepage-headline">
-      <!-- <h1>Elegant Homepage Headline</h1> -->
-      <img src="../assets/img/dedicated.png" alt="">
+      <h1>Dedicated to Achieving Positive
+      <br>outcomes for my clients</h1>
+      <!-- <img src="../assets/img/dedicated.png" alt=""> -->
     </div>
 
     
@@ -14,6 +15,7 @@
 </script>
 
 <style scoped lang="scss">
+
 
   .container.about-header {
     width: 100%;
@@ -43,8 +45,14 @@
   .homepage-headline {
     // margin: 200px 0;
 
-    img {
-      // margin: 50px auto;
+    h1 {
+      font-size: 44px;
+      text-align: center;
+      color: #fff;
+      font-family: 'Times New Roman', serif;
+      font-weight: bold;
+      position: relative;
+      top: 30px;
     }
   }
   

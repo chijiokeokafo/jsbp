@@ -57,6 +57,10 @@
     border-radius: 5px;
     left: -4px;
     position: relative;
+    transition: all 0.15s linear;
+  }
+  .signup-button:hover {
+    background-color: #5c5eb4;
   }
 
   .signup-button:focus {

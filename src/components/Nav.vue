@@ -7,7 +7,7 @@
             <router-link to="/"><img src="../assets/img/logo.png" alt=""></router-link>
           </div>
           <div class="nav">
-            <ul class="nav-list">
+            <ul class="nav-list stroke">
               <li>
                 <router-link to="/about">ABOUT</router-link>
               </li>
@@ -51,32 +51,32 @@
 <style scoped lang="scss">
   body { margin: 0; }
 
-    #app {
-      font-family: 'Avenir', Helvetica, Arial, sans-serif;
-      -webkit-font-smoothing: antialiased;
-      -moz-osx-font-smoothing: grayscale;
-      text-align: center;
-      color: #2c3e50;
-      /*margin-top: 60px;*/
-    }
+  #app {
+    font-family: 'Avenir', Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    color: #2c3e50;
+    /*margin-top: 60px;*/
+  }
 
-    h1, h2 {
-      font-weight: normal;
-    }
+  h1, h2 {
+    font-weight: normal;
+  }
 
-    ul {
-      list-style-type: none;
-      padding: 0;
-    }
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
 
-    li {
-      display: inline-block;
-      margin: 0 10px;
-    }
+  li {
+    display: inline-block;
+    margin: 0 10px;
+  }
 
-    a {
-      color: #42b983;
-    }
+  a {
+    color: #42b983;
+  }
 
   .container.nav-header {
     width: 100%;
@@ -110,11 +110,23 @@
     .logo {
       display: flex;
       align-items: center;
+      position: relative;
+      z-index: 1000;
     }
 
     .nav-list {
       color: #fff;
+
+      li a {
+        transition: all 0.15s linear;
+        color: #fff;
+      }
+
+
     }
+  }
+  .nav-list li:hover a {
+    color: #f0bed8;
   }
   .homepage-headline {
     margin: 250px 0;
@@ -151,6 +163,37 @@
 
   .is-gone {
     display: none;
+  }
+
+  ul li a,
+  ul li a:after,
+  ul li a:before {
+    transition: all .25s;
+  }
+  .nav-list.stroke li a {
+    position: relative;
+    padding: 0 0 4px 0;
+  }
+  .nav-list.stroke li a:after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 0%;
+    content: '.';
+    color: transparent;
+    background: #f0bed8;
+    height: 2px;
+  }
+  .nav-list.stroke li a:hover:after {
+    width: 100%;
+  }
+  /*.nav-list.stroke li a.this-page {
+    color: #949696;
+  }*/
+  .nav-list.stroke li a.this-page:after {
+   width: 100%;
   }
   
 </style>

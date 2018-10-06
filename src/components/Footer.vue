@@ -34,7 +34,8 @@
   .footer-row p {
     color: #717171;
     padding: 10px 0px;
-    font-size: 24px;
+    font-family: 'Helvetica', sans-serif;
+    font-size: 16px;
     margin: 0;
   }
   .copy, 
