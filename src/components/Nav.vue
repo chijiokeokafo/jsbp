@@ -158,11 +158,11 @@
   }
 
   .is-here {
-    display: block;
+    opacity: 1;
   }
 
   .is-gone {
-    display: none;
+    opacity: 0;
   }
 
   ul li a,

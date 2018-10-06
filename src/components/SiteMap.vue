@@ -47,5 +47,6 @@
 
   .col p {
     font-size: 16px;
+    cursor: pointer;
   }
 </style>

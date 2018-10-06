@@ -55,6 +55,10 @@
 </script>
 
 <style scoped>
+  .container-hamburger-nav {
+    display: flex;
+    align-items: center;
+  }
 
   #nav-icon3 {
     width: 25px;
