@@ -22,7 +22,11 @@
     padding: 10px 0 80px;
   }
 
-  h1 { margin-bottom: 60px; }
+  .juicer-container h1 { 
+    margin-bottom: 60px; 
+    text-align: center;
+
+  }
   .box-row {
     display: flex;
     flex-direction: row;

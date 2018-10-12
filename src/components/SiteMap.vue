@@ -33,12 +33,16 @@
     padding: 90px 0 130px 0;
     font-family: 'Helvetica', sans-serif
   }
-  .logo-container { margin-bottom: 20px; }
+  .logo-container { 
+    margin: 0 auto 20px; 
+    text-align: center;
+  }
 
   .three-col {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    text-align: center;
   }
   .col {
     width: 28%;
