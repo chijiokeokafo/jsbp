@@ -11,15 +11,89 @@
     </div>
 
     <div class="center">
-      <img src="../assets/img/video.jpg" alt="">
+      <img class="video-holder" src="../assets/img/video.jpg" alt="">
 
       <div class="coaching-packages">
         <h1>Testimonials</h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, secod do eiusmod tempor incididunt ut labore dolo rmagna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+        <div class="testimonial-container">
+          <div class="top-row">
+            <img  src="../assets/img/tes1.png" alt="">
+            <div class="purple-copy">
+              
+            </div>
+          </div>
+          <div class="bottom-row">
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
+            <br>
+            <br>
+            Lorem ipsum dolor sit amet, cons ectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+          </div>
+        </div>
+
+        <div class="testimonial-container">
+          <div class="top-row">
+            <div class="purple-copy">
+              
+            </div>
+            <img  src="../assets/img/tes2.png" alt="">
+          </div>
+          <div class="bottom-row">
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
+            <br>
+            <br>
+            Lorem ipsum dolor sit amet, cons ectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+          </div>
+        </div>
+
+        <div class="testimonial-container">
+          <div class="top-row">
+            <img  src="../assets/img/tes3.png" alt="">
+            <div class="purple-copy">
+              
+            </div>
+          </div>
+          <div class="bottom-row">
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
+            <br>
+            <br>
+            Lorem ipsum dolor sit amet, cons ectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+          </div>
+        </div>
+
+        <div class="testimonial-container">
+          <div class="top-row">
+            <div class="purple-copy">
+              
+            </div>
+            <img  src="../assets/img/tes4.png" alt="">
+          </div>
+          <div class="bottom-row">
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
+            <br>
+            <br>
+            Lorem ipsum dolor sit amet, cons ectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+          </div>
+        </div>
+
+        <div class="testimonial-container">
+          <div class="top-row">
+            <img  src="../assets/img/tes5.png" alt="">
+            <div class="purple-copy">
+              
+            </div>
+          </div>
+          <div class="bottom-row">
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
+            <br>
+            <br>
+            Lorem ipsum dolor sit amet, cons ectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+          </div>
+        </div>
       </div>
     </div>
-    <juicer></juicer>
-    <newsletter-signup></newsletter-signup>
+    <booking-signup></booking-signup>
     <site-map></site-map>
     <footer-component></footer-component>
   </div>
@@ -87,99 +161,61 @@
     width: 80%;
     margin: 0 auto 160px;
 
-    .left, .right {
-      width: 50%;
+    img.video-holder {
+      width: 100%;
+      margin-bottom: 140px !important;
+    }
+
+    .testimonial-container {
+      margin: 60px auto;
+    }
+
+    .top-row {
       display: flex;
-      flex-direction: column;
-      justify-content: flex-start;
-      // align-items: center;
-    }
-    .left {
-      text-align: left !important;
-
-      .phone, .email {
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-start;
-        align-items: center;
-        margin-bottom: 20px;
-
-        p {
-          font-size: 26px;
-          color: #2e3192;
-          margin: 0;
-        }
-      }
-    }
-
-    .left h1 {
-      font-size: 64px;
-      font-family: 'Times New Roman', serif;
-      font-style : italic;
-      margin-top: 0;
-      margin-bottom: 20px;
-    }
-
-    .icon-holder {
-      background-color: #dcdded;
-      width: 45px;
-      height: 45px;
-      border-radius: 100%; 
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      margin-right: 20px;
+      flex-direction: row;
 
       img {
-        width: 25px;
-        height: 25px;
+        width: 500px;
+        height: auto;
+      }
+
+      .purple-copy {
+        width: calc(100% - 500px);;
+        // height: 485px;
+        background-color: #2e3192;
       }
     }
 
-    .form-container {
-      display: flex;
-      flex-direction: column;
-      padding: 0 30px;
+    .bottom-row {
+      background-color: #eeeef6;
+      padding: 70px 0;
 
-      input {
-        border: 1px solid #ccc !important;
-        margin-bottom: 15px;
-        padding: 8px;
-        border-radius: 3px;
-        // max-width: 400px;
-        margin: 0 auto 15px;
-        width: 100%;
-      }
-
-      textarea {
-        border: 1px solid #ccc !important;
-        padding: 8px;
-        border-radius: 3px;
-        // max-width: 400px;
+      p {
+        width: 78%;
         margin: 0 auto;
-        width: 100%;
       }
+    }
+    
 
-      .signup-button {
-        border: none;
-        background-color: #2e3192;
-        color: #fff;
-        font-size: 20px;
-        padding: 17px 20px 17px 20px;
-        border-radius: 5px;
-        position: relative;
-        transition: all 0.15s linear;
-        width: 200px;
-        height: 60px;
-        margin-top: 15px;
-      }
-      .signup-button:hover {
-        background-color: #5c5eb4;
-      }
+    .signup-button {
+      border: none;
+      background-color: #2e3192;
+      color: #fff;
+      font-size: 20px;
+      padding: 17px 20px 17px 20px;
+      border-radius: 5px;
+      position: relative;
+      transition: all 0.15s linear;
+      width: 200px;
+      height: 60px;
+      margin-top: 15px;
+    }
+    .signup-button:hover {
+      background-color: #5c5eb4;
+    }
 
-      .signup-button:focus {
-        outline: none;
-      }
+    .signup-button:focus {
+      outline: none;
     }
   }
   
