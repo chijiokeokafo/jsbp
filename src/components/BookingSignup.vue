@@ -29,6 +29,7 @@
     justify-content: center;
     align-items: center;
     width: 70%;
+    text-align: center;
   }
 
   .booking-row p {
