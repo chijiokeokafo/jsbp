@@ -32,7 +32,10 @@ import AboutPageHeader from './components/AboutPageHeader.vue'
 Vue.use(VueRouter);
 
 const router = new VueRouter({
-  routes
+  routes, 
+  scrollBehavior (to, from, savedPosition) {
+    return { x: 0, y: 0 }
+  }
 });
 
 Vue.component('nav-component', Nav);
