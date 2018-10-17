@@ -44,9 +44,17 @@
         this.isActive = !this.isActive;
 
         if (this.isActive == false) {
-          $('.takeover-nav').css('display', 'none');
+          $('.takeover-nav').css('opacity', 0);
+          setTimeout (function() {
+            $('.takeover-nav').css('display', 'none');
+          }, 200)
+          
         } else {
+          
           $('.takeover-nav').css('display', 'flex');
+          setTimeout (function() {
+            $('.takeover-nav').css('opacity', 1);
+          }, 180)
         }
         
       }
@@ -148,6 +156,7 @@
     height: 100vh;
     top: 0;
     left: 0;
+    transition: all 0.125s linear;
   }
 
   .takeover-nav a {
